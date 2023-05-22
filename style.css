@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+   
+
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  h1{
+    margin-left: 100px;
+  }
+  .box{
+    position: relative;
+    margin-top: 8rem;
+    padding: 0px 35px;
+    background-color: white;
+    width: 440px;
+    height: 430px;
+    border-radius: 15px;
+    border:2px solid black;
+  }
+  .input-group{
+    position: relative;
+  }
+ .input-group input{
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    background: #f1f1f1;
+
+ }
+ .success input{
+  border: 3px green solid;
+ }
+ .success i.bxs-check-circle{
+  color: green;
+  visibility: visible;
+  font-size:xx-large;
+ }
+ .error input{
+  border:3px red solid;
+ }
+ .error i.bx-error-circle{
+  font-size:xx-large;
+  visibility: visible;
+  color: red;
+ }
+ .input-group label{
+  display: inline-block;
+  margin-bottom: 3px;
+  text-transform: uppercase;
+ }
+ .input-group i{
+  position: absolute;
+  right: 20px;
+  top: 25px;
+  visibility: hidden;
+ 
+ }
+ .input-group p{
+  margin-top: 1px;
+  font-size: 18px;
+  color: red;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+  visibility: hidden;
+ }
+ .error p{
+  visibility: visible;
+ }
+
+  .registerbtn {
+    background-color: #2804aa;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 6px;
+  }
+  a {
+    color: dodgerblue;
+  }
+  
+
